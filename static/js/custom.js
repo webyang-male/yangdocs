@@ -1,5 +1,4 @@
 // 控制台打印自定义内容
-var window;
 if (window.console) {
     console.clear();
     var getTimeState_console = function () {
