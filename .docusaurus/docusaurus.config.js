@@ -22,6 +22,11 @@ export default {
           "position": "left"
         },
         {
+          "href": "https://webyang-male.github.io/practicalWriting/",
+          "label": "Writing",
+          "position": "left"
+        },
+        {
           "href": "https://github.com/webyang-male",
           "label": "GitHub",
           "position": "right"
