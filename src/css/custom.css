@@ -28,15 +28,15 @@ html {
 }
 @font-face {
   font-family: Candyhome;
-  /* src: url(https://fastly.jsdelivr.net/npm/akilar-candyassets/fonts/Candyhome.ttf); */
-  src: url(/static/fonts/Candyhome.ttf) format("truetype");
+  src: url(https://fastly.jsdelivr.net/npm/akilar-candyassets/fonts/Candyhome.ttf);
+  /* src: url(/static/fonts/Candyhome.ttf) format("truetype"); */
   font-display: swap;
   font-weight: lighter;
 }
 @font-face {
   font-family: ZhuZiAWan;
-  /* src: url(https://fastly.jsdelivr.net/npm/akilar-candyassets/fonts/ZhuZiAWan.woff2); */
-  src: url(/static/fonts/ZhuZiAWan.ttf) format("truetype");
+  src: url(https://fastly.jsdelivr.net/npm/akilar-candyassets/fonts/ZhuZiAWan.woff2);
+  /* src: url(/static/fonts/ZhuZiAWan.ttf) format("truetype"); */
   font-display: swap;
   font-weight: lighter;
 }
