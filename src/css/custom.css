@@ -23,3 +23,41 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+html {
+  font-family: ZhuZiAWan;
+}
+@font-face {
+  font-family: Candyhome;
+  /* src: url(https://fastly.jsdelivr.net/npm/akilar-candyassets/fonts/Candyhome.ttf); */
+  src: url(/static/fonts/Candyhome.ttf) format("truetype");
+  font-display: swap;
+  font-weight: lighter;
+}
+@font-face {
+  font-family: ZhuZiAWan;
+  /* src: url(https://fastly.jsdelivr.net/npm/akilar-candyassets/fonts/ZhuZiAWan.woff2); */
+  src: url(/static/fonts/ZhuZiAWan.ttf) format("truetype");
+  font-display: swap;
+  font-weight: lighter;
+}
+.hero .hero__title {
+  font-family: Candyhome;
+}
+.hero__title {
+  color: rgb(78 89 105);
+}
+.hero__subtitle {
+  color: rgb(106 139 173);
+}
+header {
+  background: url(https://npm.elemecdn.com/hassan-assets/img/bg_homepage_gray.png);
+}
+[data-theme="dark"] header {
+  background: url(https://npm.elemecdn.com/hassan-assets/img/bg_homepage_dark.png);
+}
+[data-theme="dark"] .hero__title {
+  color: #ffffff;
+}
+[data-theme="dark"] .hero__subtitle {
+  color: #ffffff;
+}

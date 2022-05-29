@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '赵同学',
+  tagline: 'The gorgeous words,weak language,actually cannot replace what.',
+  url: 'https://yangdocs.vercel.app/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/docusaurus.png',
+  organizationName: 'webyang-male', // Usually your GitHub org/user name.
+  projectName: 'yangdocs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Zain',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/webyang-male',
           label: 'GitHub',
           position: 'right',
         },
@@ -48,15 +48,15 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Issues',
+              href: 'https://github.com/webyang-male/yangdocs/issues',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Discussions',
+              href: 'https://github.com/webyang-male/yangdocs/discussions',
             },
             {
-              label: 'Twitter',
+              label: 'Twitter(Official)',
               href: 'https://twitter.com/docusaurus',
             },
           ],
@@ -69,13 +69,13 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
+              label: 'GitHub(Official)',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Zain Website, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
