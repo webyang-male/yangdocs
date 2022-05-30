@@ -7,6 +7,10 @@ module.exports = {
   organizationName: 'webyang-male', // Usually your GitHub org/user name.
   projectName: 'yangdocs', // Usually your repo name.
   themeConfig: {
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },
     navbar: {
       title: 'Zain',
       logo: {
@@ -104,5 +108,13 @@ module.exports = {
       },
     ],
   ],
-  
+  scripts: [
+    // String format.
+    // 'https://gcore.jsdelivr.net/gh/webyang-male/CDN/docusaurus/js/custom.js',
+    // Object format.
+    {
+      src: 'https://gcore.jsdelivr.net/gh/webyang-male/CDN/docusaurus/js/custom.js',
+      async: true,
+    },
+  ],
 };

@@ -3,6 +3,10 @@ export default {
   "themes": [],
   "customFields": {},
   "themeConfig": {
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 5
+    },
     "navbar": {
       "title": "Zain",
       "logo": {
@@ -107,5 +111,11 @@ export default {
         }
       }
     ]
+  ],
+  "scripts": [
+    {
+      "src": "https://gcore.jsdelivr.net/gh/webyang-male/CDN/docusaurus/js/custom.js",
+      "async": true
+    }
   ]
 };
